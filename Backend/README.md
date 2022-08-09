@@ -1,11 +1,7 @@
-# May 23rd, start of backend
-This backend is being written with frontend mostly completed.
+## Backed detalji
 
-Unfortunately, database is not done yet as MongoDB being NoSQL database discouraged me entirely.
-Here I will use Python and Flask.
+Na prvom commitu može se vidjeti ogroman dio koda.
 
-For the starting phase I'll use some hard coded data just to test frontend-backend communication.
+Taj kod sam ja napisao, i sve commitove vezane uz taj kod može se pronaći na https://github.com/inincevic/WebApps-Project-Backend
 
-# May 24th, change in language
-While Flask does sound cool, I can't find any good guides for creating it and connecting it to a pre-existing frontend.
-That's why I have decided to try and get a javascript backend running.
+Prolazeći kroz kod, vidi se da sam koristio post na mjestima gdje sam mogao koristiti get.
