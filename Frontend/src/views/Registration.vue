@@ -84,7 +84,7 @@ export default {
     signup() {
       if (this.password == this.passwordConfirmation) {
         axios
-          .post("https://pokeguesserproject.herokuapp.com/register", this.credentials)
+          .post("localhost:5000/register", this.credentials)
           .then((response) => {
             console.log(response);
             if (response.data) {

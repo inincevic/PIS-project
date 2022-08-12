@@ -382,7 +382,7 @@ export default {
     //getting attributes from the database
     async getAttributes() {
       await axios
-        .get("https://pokeguesserproject.herokuapp.com/getattributes")
+        .get("localhost:5000/getattributes")
         .then((response) => {
           this.attributes_database = response.data;
         });
@@ -398,7 +398,7 @@ export default {
         return;
       }
       axios
-        .post("https://pokeguesserproject.herokuapp.com/findpokemon", this.enteredAtributes)
+        .post("localhost:5000/findpokemon", this.enteredAtributes)
         .then((response) => {
           console.log("recieved response");
           console.log(response);
