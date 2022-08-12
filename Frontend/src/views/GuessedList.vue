@@ -1,41 +1,43 @@
 <template>
-  <!-- Information row -->
-  <div class="row row-upper">
-    <div class="title_text">Pokémon guessed by {{ username }}</div>
-    <div class="plain_text">
-      Number of guessed Pokémon: {{ number_guessed }}
-    </div>
-  </div>
-  <!-- Display box -->
-  <div class="row row-middle">
-    <div class="text_box">
-      <div class="text_in_box">
-        <p v-for="pokemon in guessed_pokemon" :key="pokemon">
-          {{ pokemon.pokemon_name }}
-          <br />
-          -------------------------------------------------------------
-        </p>
+  <div>
+    <!-- Information row -->
+    <div class="row row-upper">
+      <div class="title_text">Pokémon guessed by {{ username }}</div>
+      <div class="plain_text">
+        Number of guessed Pokémon: {{ number_guessed }}
       </div>
     </div>
-  </div>
-  <!-- Button -->
-  <div class="row row-lower">
-    <div class="col-xs-4 btn-col"></div>
-    <div class="col-xs-4 btn-col"></div>
-    <div class="col-xs-4 btn-col">
-      <div class="sub_text">Return to profile</div>
-      <button
-        type="button"
-        class="btn btn-success btn-lg"
-        style="
-          margin: 1em;
-          font-family: 'Pokemon Solid';
-          color: #2a75bb;
-          background-color: #ffcb05;
-        "
-      >
-        <router-link to="/profile">Return</router-link>
-      </button>
+    <!-- Display box -->
+    <div class="row row-middle">
+      <div class="text_box">
+        <div class="text_in_box">
+          <p v-for="pokemon in guessed_pokemon" :key="pokemon">
+            {{ pokemon.pokemon_name }}
+            <br />
+            -------------------------------------------------------------
+          </p>
+        </div>
+      </div>
+    </div>
+    <!-- Button -->
+    <div class="row row-lower">
+      <div class="col-xs-4 btn-col"></div>
+      <div class="col-xs-4 btn-col"></div>
+      <div class="col-xs-4 btn-col">
+        <div class="sub_text">Return to profile</div>
+        <button
+          type="button"
+          class="btn btn-success btn-lg"
+          style="
+            margin: 1em;
+            font-family: 'Pokemon Solid';
+            color: #2a75bb;
+            background-color: #ffcb05;
+          "
+        >
+          <router-link to="/profile">Return</router-link>
+        </button>
+      </div>
     </div>
   </div>
 </template>
@@ -55,7 +57,7 @@ export default {
   methods: {
     async getFoundPokemon() {
       await axios
-        .post("https://pokeguesserproject.herokuapp.com/guessedpokemon", {
+        .post("http://localhost:5000/guessedpokemon", {
           username: this.username,
         })
         .then(async (response) => {

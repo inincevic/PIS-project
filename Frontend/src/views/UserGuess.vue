@@ -1,324 +1,310 @@
 <template>
-  <!-- Primary type row -->
-  <div class="row attribute-row">
-    <div class="col-sm-4">
-      <p class="normal_text">Primary type*</p>
-    </div>
-    <!-- Dropdown menu -->
-    <div class="col-sm-4">
-      <form
-        @submit="sendPokemonCredentials()"
-        action="#"
-        onsubmit="return false"
-      >
-        <div class="input-group mb-3">
-          <div class="input-group-prepend">
-            <label class="inputPrimaryType"></label>
-          </div>
-          <select
-            class="custom-select"
-            id="inputGroupSelect01"
-            style="width: 400px; height: 30px"
-            v-model="enteredAtributes.type_one"
-          >
-            <option selected></option>
-            <option v-for="type in attributes_database.types" :key="type">
-              {{ type.type_name }}
-            </option>
-          </select>
-        </div>
-      </form>
-    </div>
-    <!-- Explanation -->
-    <div class="col-sm-4">
-      <p class="explanation">
-        Select what the primary type of the Pokémon is. <br />
-      </p>
-    </div>
-  </div>
-
-  <!-- Secondary type row -->
-  <div class="row attribute-row">
-    <div class="col-sm-4">
-      <p class="normal_text">Secondary type</p>
-    </div>
-    <!-- Dropdown menu -->
-    <div class="col-sm-4">
-      <form
-        @submit="sendPokemonCredentials()"
-        action="#"
-        onsubmit="return false"
-      >
-        <div class="input-group mb-3">
-          <div class="input-group-prepend">
-            <label class="inputPrimaryType"></label>
-          </div>
-          <select
-            class="custom-select"
-            id="inputGroupSelect01"
-            style="width: 400px; height: 30px"
-            v-model="enteredAtributes.type_two"
-          >
-            <option selected></option>
-            <option v-for="type in attributes_database.types" :key="type">
-              {{ type.type_name }}
-            </option>
-          </select>
-        </div>
-      </form>
-    </div>
-    <!-- Explanation -->
-    <div class="col-sm-4">
-      <p class="explanation">
-        Type what the secondary type of the Pokémon is. <br />
-      </p>
-    </div>
-  </div>
-
-  <!-- Primary Colour row -->
-  <div class="row attribute-row">
-    <div class="col-sm-4">
-      <p class="normal_text">Primary colour*</p>
-    </div>
-    <!-- Dropdown menu -->
-    <div class="col-sm-4">
-      <form
-        @submit="sendPokemonCredentials()"
-        action="#"
-        onsubmit="return false"
-      >
-        <div class="input-group mb-3">
-          <div class="input-group-prepend">
-            <label class="inputPrimaryType"></label>
-          </div>
-          <select
-            class="custom-select"
-            id="inputGroupSelect01"
-            style="width: 400px; height: 30px"
-            v-model="enteredAtributes.colour_one"
-          >
-            <option selected></option>
-            <option v-for="colour in attributes_database.colours" :key="colour">
-              {{ colour.colour_name }}
-            </option>
-          </select>
-        </div>
-      </form>
-    </div>
-    <!-- Explanation -->
-    <div class="col-sm-4">
-      <p class="explanation">
-        Type what the dominant of the Pokémon is. <br />
-      </p>
-    </div>
-  </div>
-
-  <!-- Secondary Colour row -->
-  <div class="row attribute-row">
-    <div class="col-sm-4">
-      <p class="normal_text">Secondary colour</p>
-    </div>
-    <!-- Dropdown menu -->
-    <div class="col-sm-4">
-      <form
-        @submit="sendPokemonCredentials()"
-        action="#"
-        onsubmit="return false"
-      >
-        <div class="input-group mb-3">
-          <div class="input-group-prepend">
-            <label class="inputPrimaryType"></label>
-          </div>
-          <select
-            class="custom-select"
-            id="inputGroupSelect01"
-            style="width: 400px; height: 30px"
-            v-model="enteredAtributes.colour_two"
-          >
-            <option selected></option>
-            <option v-for="colour in attributes_database.colours" :key="colour">
-              {{ colour.colour_name }}
-            </option>
-          </select>
-        </div>
-      </form>
-    </div>
-    <!-- Explanation -->
-    <div class="col-sm-4">
-      <p class="explanation">
-        Type what the second dominant colour of the Pokémon is. <br />
-      </p>
-    </div>
-  </div>
-
-  <!-- Stage row -->
-  <div class="row attribute-row">
-    <div class="col-sm-4">
-      <p class="normal_text">Stage</p>
-    </div>
-    <!-- Input field  -->
-    <div class="col-sm-4">
-      <form>
-        <div class="form-group">
-          <label for="inputForm" class="plain_text"></label>
-          <input
-            type="stage"
-            class="form-control"
-            style="width: 400px; height: 30px"
-            id="inputForm"
-            aria-describedby="emailHelp"
-            placeholder="Enter form"
-            v-model="enteredAtributes.stage"
-          />
-        </div>
-      </form>
-    </div>
-    <!-- Explanation -->
-    <div class="col-sm-4">
-      <p class="explanation">
-        Type what is the form of this Pokémon. <br />
-        (Base form, 1st stage, 2nd stage)
-      </p>
-    </div>
-  </div>
-
-  <!-- Evolution method row -->
-  <div class="row attribute-row">
-    <div class="col-sm-4">
-      <p class="normal_text">Evolution method</p>
-    </div>
-    <!-- Dropdown menu -->
-    <div class="col-sm-4">
-      <form
-        @submit="sendPokemonCredentials()"
-        action="#"
-        onsubmit="return false"
-      >
-        <div class="input-group mb-3">
-          <div class="input-group-prepend">
-            <label class="inputEvolutionMethod"></label>
-          </div>
-          <select
-            class="custom-select"
-            id="inputGroupSelect01"
-            style="width: 400px; height: 30px"
-            v-model="enteredAtributes.evolution_method"
-          >
-            <option selected></option>
-            <option
-              v-for="method in attributes_database.evolution_methods"
-              :key="method"
+  <div>
+    <!-- Primary type row -->
+    <div class="row attribute-row">
+      <div class="col-sm-4">
+        <p class="normal_text">Primary type*</p>
+      </div>
+      <!-- Dropdown menu -->
+      <div class="col-sm-4">
+        <form
+          @submit="sendPokemonCredentials()"
+          action="#"
+          onsubmit="return false"
+        >
+          <div class="input-group mb-3">
+            <div class="input-group-prepend">
+              <label class="inputPrimaryType"></label>
+            </div>
+            <select
+              class="custom-select"
+              id="inputGroupSelect01"
+              style="width: 400px; height: 30px"
+              v-model="enteredAtributes.type_one"
             >
-              {{ method.method_name }}
-            </option>
-          </select>
-        </div>
-      </form>
-    </div>
-    <!-- Explanation -->
-    <div class="col-sm-4">
-      <p class="explanation">
-        Type what method is needed for this Pokémon to reach this stage from
-        it's previous stage. <br />
-      </p>
-    </div>
-  </div>
-
-  <!-- Regional variant -->
-  <div class="row attribute-row">
-    <div class="col-sm-4">
-      <p class="normal_text">Regional variant</p>
-    </div>
-    <!-- Dropdown menu -->
-    <div class="col-sm-4" style="align-content: center">
-      <form
-        @submit="sendPokemonCredentials()"
-        action="#"
-        onsubmit="return false"
-      >
-        <div class="input-group mb-3">
-          <div class="input-group-prepend">
-            <label class="inputEvolutionMethod"></label>
+              <option selected></option>
+              <option v-for="type in attributes_database.types" :key="type">
+                {{ type.type_name }}
+              </option>
+            </select>
           </div>
-          <select
-            class="custom-select"
-            style="width: 400px; height: 30px"
-            id="inputGroupSelect01"
-            v-model="enteredAtributes.regional_variant"
-          >
-            <option selected></option>
-            <option v-for="variant in attributes_database.forms" :key="variant">
-              {{ variant.variant_name }}
-            </option>
-          </select>
-        </div>
-      </form>
+        </form>
+      </div>
+      <!-- Explanation -->
+      <div class="col-sm-4">
+        <p class="explanation">
+          Select what the primary type of the Pokémon is. <br />
+        </p>
+      </div>
     </div>
-    <!-- Explanation -->
-    <div class="col-sm-4">
-      <p class="explanation">
-        Type what regional variant this Pokémon is. <br />
-      </p>
-    </div>
-  </div>
 
-  <!-- Base stat total row -->
-  <div class="row attribute-row">
-    <div class="col-sm-4">
-      <p class="normal_text">Base stat total</p>
+    <!-- Secondary type row -->
+    <div class="row attribute-row">
+      <div class="col-sm-4">
+        <p class="normal_text">Secondary type</p>
+      </div>
+      <!-- Dropdown menu -->
+      <div class="col-sm-4">
+        <form
+          @submit="sendPokemonCredentials()"
+          action="#"
+          onsubmit="return false"
+        >
+          <div class="input-group mb-3">
+            <div class="input-group-prepend">
+              <label class="inputPrimaryType"></label>
+            </div>
+            <select
+              class="custom-select"
+              id="inputGroupSelect01"
+              style="width: 400px; height: 30px"
+              v-model="enteredAtributes.type_two"
+            >
+              <option selected></option>
+              <option v-for="type in attributes_database.types" :key="type">
+                {{ type.type_name }}
+              </option>
+            </select>
+          </div>
+        </form>
+      </div>
+      <!-- Explanation -->
+      <div class="col-sm-4">
+        <p class="explanation">
+          Type what the secondary type of the Pokémon is. <br />
+        </p>
+      </div>
     </div>
-    <!-- Input field -->
-    <div class="col-sm-4">
-      <form>
-        <div class="form-group">
-          <label for="inputBaseStatTotal" class="plain_text"></label>
-          <input
-            type="baseStatTotal"
-            class="form-control"
-            style="width: 400px; height: 30px"
-            id="inputBaseStatTotal"
-            aria-describedby="emailHelp"
-            placeholder="Enter base stat total"
-            v-model="enteredAtributes.base_stat_total"
-          />
-        </div>
-      </form>
+
+    <!-- Primary Colour row -->
+    <div class="row attribute-row">
+      <div class="col-sm-4">
+        <p class="normal_text">Primary colour*</p>
+      </div>
+      <!-- Dropdown menu -->
+      <div class="col-sm-4">
+        <form
+          @submit="sendPokemonCredentials()"
+          action="#"
+          onsubmit="return false"
+        >
+          <div class="input-group mb-3">
+            <div class="input-group-prepend">
+              <label class="inputPrimaryType"></label>
+            </div>
+            <select
+              class="custom-select"
+              id="inputGroupSelect01"
+              style="width: 400px; height: 30px"
+              v-model="enteredAtributes.colour_one"
+            >
+              <option selected></option>
+              <option
+                v-for="colour in attributes_database.colours"
+                :key="colour"
+              >
+                {{ colour.colour_name }}
+              </option>
+            </select>
+          </div>
+        </form>
+      </div>
+      <!-- Explanation -->
+      <div class="col-sm-4">
+        <p class="explanation">
+          Type what the dominant of the Pokémon is. <br />
+        </p>
+      </div>
     </div>
-    <!-- Explanation -->
-    <div class="col-sm-4">
-      <p class="explanation">Enter this Pokémon's base stat total.</p>
+
+    <!-- Secondary Colour row -->
+    <div class="row attribute-row">
+      <div class="col-sm-4">
+        <p class="normal_text">Secondary colour</p>
+      </div>
+      <!-- Dropdown menu -->
+      <div class="col-sm-4">
+        <form
+          @submit="sendPokemonCredentials()"
+          action="#"
+          onsubmit="return false"
+        >
+          <div class="input-group mb-3">
+            <div class="input-group-prepend">
+              <label class="inputPrimaryType"></label>
+            </div>
+            <select
+              class="custom-select"
+              id="inputGroupSelect01"
+              style="width: 400px; height: 30px"
+              v-model="enteredAtributes.colour_two"
+            >
+              <option selected></option>
+              <option
+                v-for="colour in attributes_database.colours"
+                :key="colour"
+              >
+                {{ colour.colour_name }}
+              </option>
+            </select>
+          </div>
+        </form>
+      </div>
+      <!-- Explanation -->
+      <div class="col-sm-4">
+        <p class="explanation">
+          Type what the second dominant colour of the Pokémon is. <br />
+        </p>
+      </div>
     </div>
-  </div>
-  <!-- Continue button row -->
-  <div class="row attribute-row">
-    <div class="col-sm-4"></div>
-    <div class="col-sm-4">
-      <button
-        type="submit"
-        class="btn btn-success btn-lg"
-        style="
-          margin: 1em;
-          font-family: 'Pokemon Solid';
-          color: #2a75bb;
-          background-color: #ffcb05;
-        "
-        @click="sendPokemonCredentials()"
-      >
-        Continue
-      </button>
+
+    <!-- Stage row -->
+    <div class="row attribute-row">
+      <div class="col-sm-4">
+        <p class="normal_text">Stage</p>
+      </div>
+      <!-- Input field  -->
+      <div class="col-sm-4">
+        <form>
+          <div class="form-group">
+            <label for="inputForm" class="plain_text"></label>
+            <input
+              type="stage"
+              class="form-control"
+              style="width: 400px; height: 30px"
+              id="inputForm"
+              aria-describedby="emailHelp"
+              placeholder="Enter form"
+              v-model="enteredAtributes.stage"
+            />
+          </div>
+        </form>
+      </div>
+      <!-- Explanation -->
+      <div class="col-sm-4">
+        <p class="explanation">
+          Type what is the form of this Pokémon. <br />
+          (Base form, 1st stage, 2nd stage)
+        </p>
+      </div>
     </div>
-    <div class="col-sm-4"></div>
-  </div>
-  <!-- Return to profile button -->
-  <div class="row attribute-row">
-    <div class="col-sm-4"></div>
-    <div class="col-sm-4"></div>
-    <div class="col-sm-4">
-      <div class="sub_text">
-        Return to Profile
-        <br />
+
+    <!-- Evolution method row -->
+    <div class="row attribute-row">
+      <div class="col-sm-4">
+        <p class="normal_text">Evolution method</p>
+      </div>
+      <!-- Dropdown menu -->
+      <div class="col-sm-4">
+        <form
+          @submit="sendPokemonCredentials()"
+          action="#"
+          onsubmit="return false"
+        >
+          <div class="input-group mb-3">
+            <div class="input-group-prepend">
+              <label class="inputEvolutionMethod"></label>
+            </div>
+            <select
+              class="custom-select"
+              id="inputGroupSelect01"
+              style="width: 400px; height: 30px"
+              v-model="enteredAtributes.evolution_method"
+            >
+              <option selected></option>
+              <option
+                v-for="method in attributes_database.evolution_methods"
+                :key="method"
+              >
+                {{ method.method_name }}
+              </option>
+            </select>
+          </div>
+        </form>
+      </div>
+      <!-- Explanation -->
+      <div class="col-sm-4">
+        <p class="explanation">
+          Type what method is needed for this Pokémon to reach this stage from
+          it's previous stage. <br />
+        </p>
+      </div>
+    </div>
+
+    <!-- Regional variant -->
+    <div class="row attribute-row">
+      <div class="col-sm-4">
+        <p class="normal_text">Regional variant</p>
+      </div>
+      <!-- Dropdown menu -->
+      <div class="col-sm-4" style="align-content: center">
+        <form
+          @submit="sendPokemonCredentials()"
+          action="#"
+          onsubmit="return false"
+        >
+          <div class="input-group mb-3">
+            <div class="input-group-prepend">
+              <label class="inputEvolutionMethod"></label>
+            </div>
+            <select
+              class="custom-select"
+              style="width: 400px; height: 30px"
+              id="inputGroupSelect01"
+              v-model="enteredAtributes.regional_variant"
+            >
+              <option selected></option>
+              <option
+                v-for="variant in attributes_database.forms"
+                :key="variant"
+              >
+                {{ variant.variant_name }}
+              </option>
+            </select>
+          </div>
+        </form>
+      </div>
+      <!-- Explanation -->
+      <div class="col-sm-4">
+        <p class="explanation">
+          Type what regional variant this Pokémon is. <br />
+        </p>
+      </div>
+    </div>
+
+    <!-- Base stat total row -->
+    <div class="row attribute-row">
+      <div class="col-sm-4">
+        <p class="normal_text">Base stat total</p>
+      </div>
+      <!-- Input field -->
+      <div class="col-sm-4">
+        <form>
+          <div class="form-group">
+            <label for="inputBaseStatTotal" class="plain_text"></label>
+            <input
+              type="baseStatTotal"
+              class="form-control"
+              style="width: 400px; height: 30px"
+              id="inputBaseStatTotal"
+              aria-describedby="emailHelp"
+              placeholder="Enter base stat total"
+              v-model="enteredAtributes.base_stat_total"
+            />
+          </div>
+        </form>
+      </div>
+      <!-- Explanation -->
+      <div class="col-sm-4">
+        <p class="explanation">Enter this Pokémon's base stat total.</p>
+      </div>
+    </div>
+    <!-- Continue button row -->
+    <div class="row attribute-row">
+      <div class="col-sm-4"></div>
+      <div class="col-sm-4">
         <button
-          type="button"
+          type="submit"
           class="btn btn-success btn-lg"
           style="
             margin: 1em;
@@ -326,11 +312,36 @@
             color: #2a75bb;
             background-color: #ffcb05;
           "
+          @click="sendPokemonCredentials()"
         >
-          <router-link to="/profile">Return</router-link>
+          Continue
         </button>
       </div>
       <div class="col-sm-4"></div>
+    </div>
+    <!-- Return to profile button -->
+    <div class="row attribute-row">
+      <div class="col-sm-4"></div>
+      <div class="col-sm-4"></div>
+      <div class="col-sm-4">
+        <div class="sub_text">
+          Return to Profile
+          <br />
+          <button
+            type="button"
+            class="btn btn-success btn-lg"
+            style="
+              margin: 1em;
+              font-family: 'Pokemon Solid';
+              color: #2a75bb;
+              background-color: #ffcb05;
+            "
+          >
+            <router-link to="/profile">Return</router-link>
+          </button>
+        </div>
+        <div class="col-sm-4"></div>
+      </div>
     </div>
   </div>
 </template>
@@ -393,11 +404,9 @@ export default {
 
     //getting attributes from the database
     async getAttributes() {
-      await axios
-        .get("https://pokeguesserproject.herokuapp.com/getattributes")
-        .then((response) => {
-          this.attributes_database = response.data;
-        });
+      await axios.get("http://localhost:5000/getattributes").then((response) => {
+        this.attributes_database = response.data;
+      });
     },
 
     //updating user guessed Pokémon list and number
@@ -408,7 +417,7 @@ export default {
         localStorage.getItem("foundPokemonName");
 
       await axios
-        .put("https://pokeguesserproject.herokuapp.com/updateuser", this.update_user_info)
+        .put("http://localhost:5000/updateuser", this.update_user_info)
         .then((response) => {
           if (response.data == "Ok") {
             alert(
@@ -433,7 +442,7 @@ export default {
         return;
       }
       axios
-        .post("https://pokeguesserproject.herokuapp.com/findpokemon", this.enteredAtributes)
+        .post("http://localhost:5000/findpokemon", this.enteredAtributes)
         .then((response) => {
           console.log("recieved response");
           console.log(response);
@@ -485,7 +494,6 @@ export default {
 </script>
 
 <style scoped>
-
 .attribute-row {
   min-height: calc(10vh - 100px);
 }
