@@ -61,7 +61,7 @@ export default {
     async replace_name() {
       if (localStorage.getItem("favourite_pokemon") != "") {
         await axios
-          .post("localhost:5000/favouritename", this.userInfo)
+          .post("http://localhost:5000/favouritename", this.userInfo)
           .then(async (response) => {
             localStorage.removeItem("favourite_pokemon");
             localStorage.setItem("favourite_pokemon", response.data);
