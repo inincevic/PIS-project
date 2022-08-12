@@ -57,7 +57,7 @@ export default {
   methods: {
     async getFoundPokemon() {
       await axios
-        .post("localhost:5000/guessedpokemon", {
+        .post("http://localhost:5000/guessedpokemon", {
           username: this.username,
         })
         .then(async (response) => {

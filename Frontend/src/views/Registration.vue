@@ -84,7 +84,7 @@ export default {
     signup() {
       if (this.password == this.passwordConfirmation) {
         axios
-          .post("localhost:5000/register", this.credentials)
+          .post("http://localhost:5000/register", this.credentials)
           .then((response) => {
             console.log(response);
             if (response.data) {

@@ -89,7 +89,7 @@ export default {
     async favouriteName() {},
     async updateFavourite() {
       axios
-        .put("localhost:5000/updatefavourite", this.userInfo)
+        .put("http://localhost:5000/updatefavourite", this.userInfo)
         .then((response) => {
           if (response.data) {
             alert(
