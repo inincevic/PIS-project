@@ -630,6 +630,32 @@ app.put("/updateuser", async (req, res) => {
   res.send(updated);
 });
 
+//delete user
+app.delete("/delete/:name", async (req, res) =>{
+  //Logging to console what request has been called.
+  console.log("Deleting user called.")
+
+  //connecting to the database and required collecions
+  let db = await connectDB();
+  let users = db.collection("Users");
+
+  let name = req.params.name.replace(":", "");
+  //creating a query for deleting user
+  let user_query = {
+    username: name,
+  };
+  let user_options = {
+    username: 1
+  }
+  let user = await users.findOne(user_query, user_options);
+  console.log(user);
+  await users.deleteOne(user_query);
+  console.log("deleted");
+
+  res.status(201);
+  res.send("User deleted");
+});
+
 //having the app listen on the port
 app.listen(port, () => {
   console.log("Example app listening on port", port);

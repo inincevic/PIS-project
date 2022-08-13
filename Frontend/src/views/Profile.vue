@@ -15,14 +15,20 @@
     <div class="row row-middle">
       <div class="col-sm-6">
         <p class="sub_text">Set favourite Pokémon.</p>
-        <button
-          type="button"
-          class="btn btn-success btn-lg btn-favourite"
-        >
+        <button type="button" class="btn btn-success btn-lg btn-favourite">
           <router-link to="/FavouriteSelection">Select</router-link>
         </button>
       </div>
-      <div class="col-sm-6"></div>
+      <div class="col-sm-6">
+        <p class="sub_text">Delete account</p>
+        <button
+          type="button"
+          class="btn btn-success btn-lg btn-favourite"
+          @click="delete_user(userInfo.username)"
+        >
+          <router-link to="/">Delete</router-link>
+        </button>
+      </div>
     </div>
 
     <div class="row row-lower">
@@ -58,6 +64,20 @@ export default {
     };
   },
   methods: {
+    async delete_user(userName) {
+      let userURL = `http://localhost:5000/delete/${userName}`;
+
+      if (window.confirm("Do you really want to delete?")) {
+        await axios
+          .delete(userURL)
+          .then(async (response) => {
+            console.log(response.data);
+            alert("Your account has been deleted.");
+          });
+      }
+
+      console.log(userURL);
+    },
     async replace_name() {
       if (localStorage.getItem("favourite_pokemon") != "") {
         await axios
@@ -82,7 +102,6 @@ export default {
 </script>
 
 <style scoped>
-
 .row-lower {
   min-height: calc(25vh - 100px);
 }
