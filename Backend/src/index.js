@@ -5,6 +5,7 @@ import express from "express";
 import cors from "cors";
 import connectDB from "./db.js";
 import mongoose from "mongoose";
+import bcrypt from "bcrypt";
 
 const app = express();
 const port = 5000;
@@ -32,6 +33,10 @@ app.post("/register", async (req, res) => {
     guessed_pokemon: [],
     favourite_pokemon: "",
   };
+
+  //encrypting password - communication between frontend and backend is protected by https
+  //console.log(await bcrypt.hash(user.password, 8));
+  user.password = await bcrypt.hash(req.body.password, 8)
 
   //sending data into the database
   await users.insertOne(user, function (err, res) {
