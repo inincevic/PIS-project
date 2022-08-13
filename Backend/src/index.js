@@ -35,7 +35,6 @@ app.post("/register", async (req, res) => {
   };
 
   //encrypting password - communication between frontend and backend is protected by https
-  //console.log(await bcrypt.hash(user.password, 8));
   user.password = await bcrypt.hash(req.body.password, 8)
 
   //sending data into the database
@@ -59,14 +58,14 @@ app.post("/login", async (req, res) => {
 
   //creating query and options for searching the user in the database
   let user_query = {
-    email: req.body.email,
-    password: req.body.password,
+    email: req.body.email
   };
 
   let user_options = {
     projection: {
       _id: 0,
       username: 1,
+      password: 1,
       number_guessed: 1,
       guessed_pokemon: 1,
       favourite_pokemon: 1,
@@ -74,6 +73,14 @@ app.post("/login", async (req, res) => {
   };
 
   let user = await users.findOne(user_query, user_options);
+
+  if(user && bcrypt.compare(req.body.password, user.password)){
+    console.log("success");
+    user.password = "";
+  }
+  else{
+    user = null;
+  }
 
   res.status(201);
   res.send(user);
