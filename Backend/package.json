@@ -6,6 +6,7 @@
   "main": "index.js",
   "scripts": {
     "serve": "nodemon src/index.js",
+    "final": "node src/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -19,6 +20,7 @@
   },
   "homepage": "https://github.com/inincevic/WebApps-Project-Backend#readme",
   "dependencies": {
+    "bcrypt": "^5.0.1",
     "cors": "^2.8.5",
     "express": "^4.18.1",
     "mongodb": "^4.7.0",
