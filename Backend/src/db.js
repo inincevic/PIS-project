@@ -4,7 +4,7 @@ import mongo from "mongodb";
 
 //connection string for the PokeGuesserProject database on MongoDB
 let connection_string =
-  "mongodb://mongo:27017";
+  "mongodb://localhost:27017";
 
 let client = new mongo.MongoClient(connection_string, {
   useNewUrlParser: true,
