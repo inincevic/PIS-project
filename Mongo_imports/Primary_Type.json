@@ -1,0 +1,91 @@
+[{
+  "_id": {
+    "$oid": "62891f920747fb84fa42160c"
+  },
+  "type_name": "Normal"
+},{
+  "_id": {
+    "$oid": "62891fce0747fb84fa42160d"
+  },
+  "type_name": "Fire"
+},{
+  "_id": {
+    "$oid": "628920370747fb84fa42160e"
+  },
+  "type_name": "Water"
+},{
+  "_id": {
+    "$oid": "628920720747fb84fa421610"
+  },
+  "type_name": "Electric"
+},{
+  "_id": {
+    "$oid": "628920910747fb84fa421611"
+  },
+  "type_name": "Grass"
+},{
+  "_id": {
+    "$oid": "6289209f0747fb84fa421612"
+  },
+  "type_name": "Ice"
+},{
+  "_id": {
+    "$oid": "628920aa0747fb84fa421613"
+  },
+  "type_name": "Fighting"
+},{
+  "_id": {
+    "$oid": "6289212e0747fb84fa421614"
+  },
+  "type_name": "Poison"
+},{
+  "_id": {
+    "$oid": "628921440747fb84fa421615"
+  },
+  "type_name": "Ground"
+},{
+  "_id": {
+    "$oid": "6289214d0747fb84fa421616"
+  },
+  "type_name": "Flying"
+},{
+  "_id": {
+    "$oid": "628921580747fb84fa421617"
+  },
+  "type_name": "Psychic"
+},{
+  "_id": {
+    "$oid": "628924260747fb84fa421618"
+  },
+  "type_name": "Bug"
+},{
+  "_id": {
+    "$oid": "628924370747fb84fa421619"
+  },
+  "type_name": "Rock"
+},{
+  "_id": {
+    "$oid": "628924400747fb84fa42161a"
+  },
+  "type_name": "Ghost"
+},{
+  "_id": {
+    "$oid": "6289244c0747fb84fa42161b"
+  },
+  "type_name": "Dragon"
+},{
+  "_id": {
+    "$oid": "628924540747fb84fa42161c"
+  },
+  "type_name": "Dark"
+},{
+  "_id": {
+    "$oid": "6289245b0747fb84fa42161d"
+  },
+  "type_name": "Steel"
+},{
+  "_id": {
+    "$oid": "628924620747fb84fa42161e"
+  },
+  "type_name": "Fairy"
+}]
