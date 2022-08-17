@@ -3,7 +3,7 @@ Ovaj projekt, PokeGuesserProject, je baziran na funkcionalnosti pogađanja Poké
 
 Ukoliko je neki Pokémon pronađen, ispisati će se, u slučaju da nije pronađen frontend će poslati upozorenje.
 
-*Potencijalno će ovaj dio biti maknut. MORAM DODATI ENKCIPCIJU* Korisnik aplikacije može aplikaciju koristit za više načina. Kao gost, ili kao registrirani korisnik.
+Korisnik aplikacije može aplikaciju koristit za više načina. Kao gost, ili kao registrirani korisnik.
 Ukoliko aplikaciju koristi kao gost, ima samo funkcionalnosti navedene gore.
 Kako bi netko mogao koristiti aplikaciju kao registrirani korisnik, mora se registrirati, za što postoji opcija.
 Nakon registracije i prijave, korisnik će imati dodatne opcije odabira najdražeg Pokémon-a i prikaza liste svih Pokémon-a koje je ranije pogodio.
@@ -11,7 +11,7 @@ Nakon registracije i prijave, korisnik će imati dodatne opcije odabira najdraž
 ## Funkcionalnosti
 
 Funkcionalnosti aplikacije:
-- pogađanje Pokémon-a
+- pogađanje Pokémon-a (Trenutno u bazi ima 39 Pokémona, što pokriva prvih 28 Pokédex entry-a) 
 - registracija korisnika
 - prijava korisnika
 - odabir najdražeg Pokémon-a
@@ -27,16 +27,13 @@ docker network create project_network
 
 ### 2. stvaranje mongodb dockera
 
-docker pull mongodb
-
-docker run --name mongodb -p 27017:27017 --net project_network -d mongo
+docker run -d -p 27017:27017 --network project_network --name mongo mongo:latest
 
 ### 3. stvaranje baze i dodavanje podatka
 
 Databaza ne dolazi sa podatcima.
 
-Potrebno je u MongoDB Compass-u stvoriti novu bazu podataka i nazvati je "PokeGuesserProject", te u njoj stvoriti kolekcije sa imenima kao datoteke za unos podataka koje se nalaze u Mongo_imports folderu. Potom je potrebno unijeti te podatke u kolecije korištenjem Add Data funkcije.
-
+Potrebno je u MongoDB Compass-u stvoriti novu bazu podataka i nazvati je "PokeGuesserProject", te u njoj stvoriti kolekcije sa imenima kao što su imena datoteka za unos podataka koje se nalaze u Mongo_imports folderu. Potom je potrebno unijeti te podatke u kolecije korištenjem Add Data funkcije.
 
 ### 4. stvaranje i pokretanje dockera za backend
 
