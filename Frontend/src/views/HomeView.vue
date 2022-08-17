@@ -50,9 +50,6 @@ import axios from "axios";
 
 export default {
   name: "HomeView",
-  created() {
-    localStorage.clear();
-  },
   methods: {
     async test() {
       await axios
@@ -63,7 +60,8 @@ export default {
     }
   },
   created() {
-    this.test();
+    localStorage.clear();
+    //this.test();
   }
 };
 </script>
