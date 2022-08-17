@@ -46,11 +46,22 @@
 </template>
 
 <script>
+import axios from "axios";
 
 export default {
   name: "HomeView",
+  methods: {
+    async test() {
+      await axios
+      .get("http://localhost:5000/test")
+        .then((response) => {
+          console.log(response)
+        });
+    }
+  },
   created() {
     localStorage.clear();
+    //this.test();
   }
 };
 </script>

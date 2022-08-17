@@ -1,0 +1,64 @@
+[{
+  "_id": {
+    "$oid": "62c020af1be38aa1f772aefa"
+  },
+  "username": "inincevic",
+  "email": "inincevic@unipu.hr",
+  "password": "Umbreon1",
+  "number_guessed": 13,
+  "guessed_pokemon": [
+    {
+      "pokemon_id": "62bc29fc7fcf2fda2056d8fa"
+    },
+    {
+      "pokemon_id": "62bc29fc7fcf2fda2056d8fd"
+    },
+    {
+      "pokemon_id": "62bc29fc7fcf2fda2056d8fb"
+    },
+    {
+      "pokemon_id": "62bc29fc7fcf2fda2056d8fc"
+    },
+    {
+      "pokemon_id": "62c6bbb8ad346e49cf7fb5d2"
+    },
+    {
+      "pokemon_id": "62c6e137ad346e49cf7fb5f7"
+    },
+    {
+      "pokemon_id": "62c6e529ad346e49cf7fb603"
+    },
+    {
+      "pokemon_id": "62c6edaead346e49cf7fb61b"
+    },
+    {
+      "pokemon_id": "62c6edaead346e49cf7fb61d"
+    },
+    {
+      "pokemon_id": "62c70211ad346e49cf7fb632"
+    },
+    {
+      "pokemon_id": "62c70211ad346e49cf7fb633"
+    },
+    {
+      "pokemon_id": "62c70211ad346e49cf7fb635"
+    },
+    {
+      "pokemon_id": "62c71adead346e49cf7fb672"
+    },
+    {
+      "pokemon_id": "62c6edaead346e49cf7fb621"
+    }
+  ],
+  "favourite_pokemon": "62c6bbb8ad346e49cf7fb5d2"
+},{
+  "_id": {
+    "$oid": "62f80457d37e42bed8f130cd"
+  },
+  "username": "TheGreedySage",
+  "email": "ivan.nincevic2@gmail.com",
+  "password": "$2b$08$vInZh4H4qMNi30JxPHOdfeNts2Ofw3xS98957EFOMQfpfZbFqs9WK",
+  "number_guessed": "0",
+  "guessed_pokemon": [],
+  "favourite_pokemon": ""
+}]

@@ -1,0 +1,991 @@
+[{
+  "_id": {
+    "$oid": "62bc29fc7fcf2fda2056d8fc"
+  },
+  "pokemon_name": "Venusaur",
+  "types": [
+    {
+      "type_id": "628920910747fb84fa421611"
+    },
+    {
+      "type_id": "6289212e0747fb84fa421614"
+    }
+  ],
+  "colours": [
+    {
+      "colour_id": "628a03d8ae7dd8dd4a5b5c7c"
+    },
+    {
+      "colour_id": "628a03c8ae7dd8dd4a5b5c7a"
+    }
+  ],
+  "dex_entry": "The plant blooms when it is absorbing solar energy. It stays on the move to seek sunlight.",
+  "evolution_method": "628a0639ae7dd8dd4a5b5c96",
+  "form": "628a0589ae7dd8dd4a5b5c92",
+  "stage": "2nd stage",
+  "base_stat_total": "525",
+  "dex_number": "003"
+},{
+  "_id": {
+    "$oid": "62bc29fc7fcf2fda2056d8fa"
+  },
+  "pokemon_name": "Bulbasaur",
+  "types": [
+    {
+      "type_id": "628920910747fb84fa421611"
+    },
+    {
+      "type_id": "6289212e0747fb84fa421614"
+    }
+  ],
+  "colours": [
+    {
+      "colour_id": "628a03d8ae7dd8dd4a5b5c7c"
+    },
+    {
+      "colour_id": "628a03a3ae7dd8dd4a5b5c79"
+    }
+  ],
+  "dex_entry": "A strange seed was planted on its back at birth. The plant sprouts and grows with this POKéMON.",
+  "evolution_method": "62b1702d1500f67735a6f2b2",
+  "form": "628a0589ae7dd8dd4a5b5c92",
+  "stage": "Base form",
+  "base_stat_total": "318",
+  "dex_number": "001"
+},{
+  "_id": {
+    "$oid": "62bc29fc7fcf2fda2056d8fd"
+  },
+  "pokemon_name": "Charmander",
+  "types": [
+    {
+      "type_id": "62891fce0747fb84fa42160d"
+    }
+  ],
+  "colours": [
+    {
+      "colour_id": "628a0424ae7dd8dd4a5b5c84"
+    },
+    {
+      "colour_id": "628a03d0ae7dd8dd4a5b5c7b"
+    }
+  ],
+  "dex_entry": "Obviously prefers hot places. When it rains, steam is said to spout from the tip of its tail.",
+  "evolution_method": "62b1702d1500f67735a6f2b2",
+  "form": "628a0589ae7dd8dd4a5b5c92",
+  "stage": "Base form",
+  "base_stat_total": "309",
+  "dex_number": "004"
+},{
+  "_id": {
+    "$oid": "62bc29fc7fcf2fda2056d8fb"
+  },
+  "pokemon_name": "Ivysaur",
+  "types": [
+    {
+      "type_id": "628920910747fb84fa421611"
+    },
+    {
+      "type_id": "6289212e0747fb84fa421614"
+    }
+  ],
+  "colours": [
+    {
+      "colour_id": "628a03d8ae7dd8dd4a5b5c7c"
+    },
+    {
+      "colour_id": "628a03c8ae7dd8dd4a5b5c7a"
+    }
+  ],
+  "dex_entry": "When the bulb on its back grows large, it appears to lose the ability to stand on its hind legs.",
+  "evolution_method": "628a0639ae7dd8dd4a5b5c96",
+  "form": "628a0589ae7dd8dd4a5b5c92",
+  "stage": "1st stage",
+  "base_stat_total": "405",
+  "dex_number": "002"
+},{
+  "_id": {
+    "$oid": "62c6b9c9ad346e49cf7fb5cf"
+  },
+  "dex_number": "003",
+  "pokemon_name": "Venusaur (Mega Venusaur)",
+  "types": [
+    {
+      "type_id": "628920910747fb84fa421611"
+    },
+    {
+      "type_id": "6289212e0747fb84fa421614"
+    }
+  ],
+  "colours": [
+    {
+      "colour_id": "628a03d8ae7dd8dd4a5b5c7c"
+    },
+    {
+      "colour_id": "628a03c8ae7dd8dd4a5b5c7a"
+    }
+  ],
+  "stage": "2nd stage",
+  "evolution_method": "62c6b1b5ad346e49cf7fb5b2",
+  "form": "62c6b3d8ad346e49cf7fb5b8",
+  "dex_entry": "There is a large flower on Venusaurs back. The flower is said to take on vivid colors if it gets plenty of nutrition and sunlight. The flowers aroma soothes the emotions of people.",
+  "base_stat_total": "625"
+},{
+  "_id": {
+    "$oid": "62c6bbb8ad346e49cf7fb5d0"
+  },
+  "dex_number": "005",
+  "pokemon_name": "Charmeleon",
+  "types": [
+    {
+      "type_id": "62891fce0747fb84fa42160d"
+    }
+  ],
+  "colours": [
+    {
+      "colour_id": "628a03a3ae7dd8dd4a5b5c79"
+    },
+    {
+      "colour_id": "628a0413ae7dd8dd4a5b5c82"
+    }
+  ],
+  "stage": "1st stage",
+  "evolution_method": "Level up",
+  "form": "Original",
+  "dex_entry": "When it swings its burning tail, it elevates the temperature to unbearably high levels.",
+  "base_stat_total": "405"
+},{
+  "_id": {
+    "$oid": "62c6bbb8ad346e49cf7fb5d1"
+  },
+  "dex_number": "006",
+  "pokemon_name": "Charizard",
+  "types": [
+    {
+      "type_id": "62891fce0747fb84fa42160d"
+    },
+    {
+      "type_id": "6289214d0747fb84fa421616"
+    }
+  ],
+  "colours": [
+    {
+      "colour_id": "628a0424ae7dd8dd4a5b5c84"
+    },
+    {
+      "colour_id": "628a03c8ae7dd8dd4a5b5c7a"
+    }
+  ],
+  "stage": "2nd stage",
+  "evolution_method": "Level up",
+  "form": "Original",
+  "dex_entry": "Spits 62891fce0747fb84fa42160d that is hot enough to melt boulders. Known to cause forest fire s unintentionally.",
+  "base_stat_total": "534"
+},{
+  "_id": {
+    "$oid": "62c6bbb8ad346e49cf7fb5d2"
+  },
+  "dex_number": "006",
+  "pokemon_name": "Charizard (Mega Charizard X)",
+  "types": [
+    {
+      "type_id": "62891fce0747fb84fa42160d"
+    },
+    {
+      "type_id": "6289244c0747fb84fa42161b"
+    }
+  ],
+  "colours": [
+    {
+      "colour_id": "628a03e0ae7dd8dd4a5b5c7d"
+    },
+    {
+      "colour_id": "628a03c8ae7dd8dd4a5b5c7a"
+    }
+  ],
+  "stage": "2nd stage",
+  "evolution_method": "62c6b1b5ad346e49cf7fb5b2",
+  "form": "62c6b3d8ad346e49cf7fb5b8",
+  "dex_entry": "When expelling a blast of superhot fire, the red flame at the tip of its tail burns more intensely.",
+  "base_stat_total": "634"
+},{
+  "_id": {
+    "$oid": "62c6e137ad346e49cf7fb5f5"
+  },
+  "dex_number": "006",
+  "pokemon_name": "Charizard (Mega Charizard Y)",
+  "types": [
+    {
+      "type_id": "62891fce0747fb84fa42160d"
+    },
+    {
+      "type_id": "6289214d0747fb84fa421616"
+    }
+  ],
+  "colours": [
+    {
+      "colour_id": "628a0424ae7dd8dd4a5b5c84"
+    },
+    {
+      "colour_id": "628a03d0ae7dd8dd4a5b5c7b"
+    }
+  ],
+  "stage": "2nd stage",
+  "evolution_method": "62c6b1b5ad346e49cf7fb5b2",
+  "form": "62c6b3d8ad346e49cf7fb5b8",
+  "dex_entry": "Its wings can carry this Pokémon close to an altitude of 4,600 feet. It blows out fire at very high temperatures.",
+  "base_stat_total": "634"
+},{
+  "_id": {
+    "$oid": "62c6e137ad346e49cf7fb5f6"
+  },
+  "dex_number": "007",
+  "pokemon_name": "Squirtle",
+  "types": [
+    {
+      "type_id": "628920370747fb84fa42160e"
+    }
+  ],
+  "colours": [
+    {
+      "colour_id": "628a03c8ae7dd8dd4a5b5c7a"
+    },
+    {
+      "colour_id": "628a03f7ae7dd8dd4a5b5c7f"
+    }
+  ],
+  "stage": "Base form",
+  "evolution_method": "62b1702d1500f67735a6f2b2",
+  "form": "628a0589ae7dd8dd4a5b5c92",
+  "dex_entry": "After birth, its back swells and hardens into a shell. Powerfully sprays foam from its mouth.",
+  "base_stat_total": "314"
+},{
+  "_id": {
+    "$oid": "62c6e137ad346e49cf7fb5f7"
+  },
+  "dex_number": "008",
+  "pokemon_name": "Wartortle",
+  "types": [
+    {
+      "type_id": "628920370747fb84fa42160e"
+    }
+  ],
+  "colours": [
+    {
+      "colour_id": "628a03c8ae7dd8dd4a5b5c7a"
+    },
+    {
+      "colour_id": "628a0413ae7dd8dd4a5b5c82"
+    }
+  ],
+  "stage": "1st stage",
+  "evolution_method": "628a0639ae7dd8dd4a5b5c96",
+  "form": "628a0589ae7dd8dd4a5b5c92",
+  "dex_entry": "Often hides in water to stalk unwary prey. For swimming fast, it moves its ears to maintain balance.",
+  "base_stat_total": "405"
+},{
+  "_id": {
+    "$oid": "62c6e529ad346e49cf7fb602"
+  },
+  "dex_number": "009",
+  "pokemon_name": "Blastoise",
+  "types": [
+    {
+      "type_id": "628920370747fb84fa42160e"
+    }
+  ],
+  "colours": [
+    {
+      "colour_id": "628a03c8ae7dd8dd4a5b5c7a"
+    },
+    {
+      "colour_id": "628a03f7ae7dd8dd4a5b5c7f"
+    }
+  ],
+  "stage": "2nd stage",
+  "evolution_method": "628a0639ae7dd8dd4a5b5c96",
+  "form": "628a0589ae7dd8dd4a5b5c92",
+  "dex_entry": "A brutal POKéMON with pressurized water jets on its shell. They are used for high speed tackles.",
+  "base_stat_total": "530"
+},{
+  "_id": {
+    "$oid": "62c6e529ad346e49cf7fb603"
+  },
+  "dex_number": "009",
+  "pokemon_name": "Blastoise (Mega Blastoise)",
+  "types": [
+    {
+      "type_id": "628920370747fb84fa42160e"
+    }
+  ],
+  "colours": [
+    {
+      "colour_id": "628a03c8ae7dd8dd4a5b5c7a"
+    },
+    {
+      "colour_id": "628a03f7ae7dd8dd4a5b5c7f"
+    }
+  ],
+  "stage": "2nd stage",
+  "evolution_method": "62c6b1b5ad346e49cf7fb5b2",
+  "form": "62c6b3d8ad346e49cf7fb5b8",
+  "dex_entry": "Blastoise has water spouts that protrude from its shell. The water spouts are very accurate. They can shoot bullets of water with enough accuracy to strike empty cans from a distance of over 160 feet.",
+  "base_stat_total": "630"
+},{
+  "_id": {
+    "$oid": "62c6edaead346e49cf7fb61b"
+  },
+  "dex_number": "010",
+  "pokemon_name": "Caterpie",
+  "types": [
+    {
+      "type_id": "628924260747fb84fa421618"
+    }
+  ],
+  "colours": [
+    {
+      "colour_id": "628a03d8ae7dd8dd4a5b5c7c"
+    },
+    {
+      "colour_id": "628a03d0ae7dd8dd4a5b5c7b"
+    }
+  ],
+  "stage": "Base form",
+  "evolution_method": "62b1702d1500f67735a6f2b2",
+  "form": "628a0589ae7dd8dd4a5b5c92",
+  "dex_entry": "Its short feet are tipped with suction pads that enable it to tirelessly climb slopes and walls.",
+  "base_stat_total": "195"
+},{
+  "_id": {
+    "$oid": "62c6edaead346e49cf7fb61c"
+  },
+  "dex_number": "011",
+  "pokemon_name": "Metapod",
+  "types": [
+    {
+      "type_id": "628924260747fb84fa421618"
+    }
+  ],
+  "colours": [
+    {
+      "colour_id": "628a03d8ae7dd8dd4a5b5c7c"
+    }
+  ],
+  "stage": "1st stage",
+  "evolution_method": "628a0639ae7dd8dd4a5b5c96",
+  "form": "628a0589ae7dd8dd4a5b5c92",
+  "dex_entry": "This POKéMON is vulnerable to attack while its shell is soft, exposing its weak and tender body.",
+  "base_stat_total": "205"
+},{
+  "_id": {
+    "$oid": "62c6edaead346e49cf7fb61d"
+  },
+  "dex_number": "012",
+  "pokemon_name": "Butterfree",
+  "types": [
+    {
+      "type_id": "628924260747fb84fa421618"
+    },
+    {
+      "type_id": "6289214d0747fb84fa421616"
+    }
+  ],
+  "colours": [
+    {
+      "colour_id": "628a03feae7dd8dd4a5b5c80"
+    },
+    {
+      "colour_id": "628a0413ae7dd8dd4a5b5c82"
+    }
+  ],
+  "stage": "2nd stage",
+  "evolution_method": "628a0639ae7dd8dd4a5b5c96",
+  "form": "628a0589ae7dd8dd4a5b5c92",
+  "dex_entry": "In battle, it flaps its wings at high speed to release highly toxic dust into the air.",
+  "base_stat_total": "395"
+},{
+  "_id": {
+    "$oid": "62c6edaead346e49cf7fb61e"
+  },
+  "dex_number": "013",
+  "pokemon_name": "Weedle",
+  "types": [
+    {
+      "type_id": "628924260747fb84fa421618"
+    },
+    {
+      "type_id": "6289212e0747fb84fa421614"
+    }
+  ],
+  "colours": [
+    {
+      "colour_id": "628a03f7ae7dd8dd4a5b5c7f"
+    }
+  ],
+  "stage": "Base form",
+  "evolution_method": "62b1702d1500f67735a6f2b2",
+  "form": "628a0589ae7dd8dd4a5b5c92",
+  "dex_entry": "Often found in forests, eating leaves. It has a sharp venomous stinger on its head.",
+  "base_stat_total": "195"
+},{
+  "_id": {
+    "$oid": "62c6edaead346e49cf7fb61f"
+  },
+  "dex_number": "014",
+  "pokemon_name": "Kakuna",
+  "types": [
+    {
+      "type_id": "628924260747fb84fa421618"
+    },
+    {
+      "type_id": "6289212e0747fb84fa421614"
+    }
+  ],
+  "colours": [
+    {
+      "colour_id": "628a03d0ae7dd8dd4a5b5c7b"
+    }
+  ],
+  "stage": "1st stage",
+  "evolution_method": "628a0639ae7dd8dd4a5b5c96",
+  "form": "628a0589ae7dd8dd4a5b5c92",
+  "dex_entry": "Almost incapable of moving, this POKéMON can only harden its shell to protect itself from predators.",
+  "base_stat_total": "205"
+},{
+  "_id": {
+    "$oid": "62c6edaead346e49cf7fb620"
+  },
+  "dex_number": "015",
+  "pokemon_name": "Beedril",
+  "types": [
+    {
+      "type_id": "628924260747fb84fa421618"
+    },
+    {
+      "type_id": "6289212e0747fb84fa421614"
+    }
+  ],
+  "colours": [
+    {
+      "colour_id": "628a03d0ae7dd8dd4a5b5c7b"
+    },
+    {
+      "colour_id": "628a03e0ae7dd8dd4a5b5c7d"
+    }
+  ],
+  "stage": "2nd stage",
+  "evolution_method": "628a0639ae7dd8dd4a5b5c96",
+  "form": "628a0589ae7dd8dd4a5b5c92",
+  "dex_entry": "Flies at high speed and attacks using its large venomous stingers on its forelegs and tail.",
+  "base_stat_total": "395"
+},{
+  "_id": {
+    "$oid": "62c6edaead346e49cf7fb621"
+  },
+  "dex_number": "015",
+  "pokemon_name": "Beedril (Mega Beedril)",
+  "types": [
+    {
+      "type_id": "628924260747fb84fa421618"
+    },
+    {
+      "type_id": "6289212e0747fb84fa421614"
+    }
+  ],
+  "colours": [
+    {
+      "colour_id": "628a03d0ae7dd8dd4a5b5c7b"
+    },
+    {
+      "colour_id": "628a03e0ae7dd8dd4a5b5c7d"
+    }
+  ],
+  "stage": "2nd stage",
+  "evolution_method": "62c6b1b5ad346e49cf7fb5b2",
+  "form": "62c6b3d8ad346e49cf7fb5b8",
+  "dex_entry": "Beedrill is extremely territorial. No one should ever approach its nest—this is for their own safety. If angered, they will attack in a furious swarm.",
+  "base_stat_total": "495"
+},{
+  "_id": {
+    "$oid": "62c70211ad346e49cf7fb632"
+  },
+  "dex_number": "016",
+  "pokemon_name": "Pidgey",
+  "types": [
+    {
+      "type_id": "62891f920747fb84fa42160c"
+    },
+    {
+      "type_id": "6289214d0747fb84fa421616"
+    }
+  ],
+  "colours": [
+    {
+      "colour_id": "628a03f7ae7dd8dd4a5b5c7f"
+    },
+    {
+      "colour_id": "628a03d0ae7dd8dd4a5b5c7b"
+    }
+  ],
+  "stage": "Base form",
+  "evolution_method": "62b1702d1500f67735a6f2b2",
+  "form": "628a0589ae7dd8dd4a5b5c92",
+  "dex_entry": "A common sight in forests and woods. It flaps its wings at ground level to kick up blinding sand.",
+  "base_stat_total": "251"
+},{
+  "_id": {
+    "$oid": "62c70211ad346e49cf7fb633"
+  },
+  "dex_number": "017",
+  "pokemon_name": "Pidgeotto",
+  "types": [
+    {
+      "type_id": "62891f920747fb84fa42160c"
+    },
+    {
+      "type_id": "6289214d0747fb84fa421616"
+    }
+  ],
+  "colours": [
+    {
+      "colour_id": "628a03f7ae7dd8dd4a5b5c7f"
+    },
+    {
+      "colour_id": "628a03d0ae7dd8dd4a5b5c7b"
+    }
+  ],
+  "stage": "1st stage",
+  "evolution_method": "628a0639ae7dd8dd4a5b5c96",
+  "form": "628a0589ae7dd8dd4a5b5c92",
+  "dex_entry": "Very protective of its sprawling territorial area, this POKéMON will fiercely peck at any intruder.",
+  "base_stat_total": "349"
+},{
+  "_id": {
+    "$oid": "62c70211ad346e49cf7fb634"
+  },
+  "dex_number": "018",
+  "pokemon_name": "Pidgeot",
+  "types": [
+    {
+      "type_id": "62891f920747fb84fa42160c"
+    },
+    {
+      "type_id": "6289214d0747fb84fa421616"
+    }
+  ],
+  "colours": [
+    {
+      "colour_id": "628a03f7ae7dd8dd4a5b5c7f"
+    },
+    {
+      "colour_id": "628a03d0ae7dd8dd4a5b5c7b"
+    }
+  ],
+  "stage": "2nd form",
+  "evolution_method": "628a0639ae7dd8dd4a5b5c96",
+  "form": "628a0589ae7dd8dd4a5b5c92",
+  "dex_entry": "When hunting, it skims the surface of water at high speed to pick off unwary prey such as MAGIKARP.",
+  "base_stat_total": "479"
+},{
+  "_id": {
+    "$oid": "62c70211ad346e49cf7fb635"
+  },
+  "dex_number": "018",
+  "pokemon_name": "Pidgeot (Mega Pidgeot)",
+  "types": [
+    {
+      "type_id": "62891f920747fb84fa42160c"
+    },
+    {
+      "type_id": "6289214d0747fb84fa421616"
+    }
+  ],
+  "colours": [
+    {
+      "colour_id": "628a03f7ae7dd8dd4a5b5c7f"
+    },
+    {
+      "colour_id": "628a0413ae7dd8dd4a5b5c82"
+    }
+  ],
+  "stage": "2nd form",
+  "evolution_method": "62c6b1b5ad346e49cf7fb5b2",
+  "form": "62c6b3d8ad346e49cf7fb5b8",
+  "dex_entry": "This Pokémon has a dazzling plumage of beautifully glossy feathers. Many Trainers are captivated by the striking beauty of the feathers on its head, compelling them to choose Pidgeot as their Pokémon.",
+  "base_stat_total": "579"
+},{
+  "_id": {
+    "$oid": "62c70b7cad346e49cf7fb648"
+  },
+  "dex_number": "019",
+  "pokemon_name": "Rattata",
+  "types": [
+    {
+      "type_id": "62891f920747fb84fa42160c"
+    }
+  ],
+  "colours": [
+    {
+      "colour_id": "628a03feae7dd8dd4a5b5c80"
+    },
+    {
+      "colour_id": "628a0413ae7dd8dd4a5b5c82"
+    }
+  ],
+  "stage": "Base form",
+  "evolution_method": "62b1702d1500f67735a6f2b2",
+  "form": "628a0589ae7dd8dd4a5b5c92",
+  "dex_entry": "Bites anything when it attacks. Small and very quick, it is a common sight in many places.",
+  "base_stat_total": "253"
+},{
+  "_id": {
+    "$oid": "62c70b7cad346e49cf7fb649"
+  },
+  "dex_number": "019",
+  "pokemon_name": "Alolan Rattata",
+  "types": [
+    {
+      "type_id": "628924540747fb84fa42161c"
+    },
+    {
+      "type_id": "62891f920747fb84fa42160c"
+    }
+  ],
+  "colours": [
+    {
+      "colour_id": "628a03e0ae7dd8dd4a5b5c7d"
+    },
+    {
+      "colour_id": "628a03f7ae7dd8dd4a5b5c7f"
+    }
+  ],
+  "stage": "Base form",
+  "evolution_method": "62b1702d1500f67735a6f2b2",
+  "form": "628a0596ae7dd8dd4a5b5c93",
+  "dex_entry": "With their strong capacity for survival, they can live in dirty places without concern. Left unchecked, their numbers multiply rapidly.",
+  "base_stat_total": "253"
+},{
+  "_id": {
+    "$oid": "62c70b7cad346e49cf7fb64a"
+  },
+  "dex_number": "020",
+  "pokemon_name": "Raticate",
+  "types": [
+    {
+      "type_id": "62891f920747fb84fa42160c"
+    }
+  ],
+  "colours": [
+    {
+      "colour_id": "628a03f7ae7dd8dd4a5b5c7f"
+    },
+    {
+      "colour_id": "628a0413ae7dd8dd4a5b5c82"
+    }
+  ],
+  "stage": "1st stage",
+  "evolution_method": "628a0639ae7dd8dd4a5b5c96",
+  "form": "628a0589ae7dd8dd4a5b5c92",
+  "dex_entry": "It uses its whiskers to maintain its balance. It apparently slows down if they are cut off.",
+  "base_stat_total": "413"
+},{
+  "_id": {
+    "$oid": "62c70b7cad346e49cf7fb64b"
+  },
+  "dex_number": "020",
+  "pokemon_name": "Alolan Raticate",
+  "types": [
+    {
+      "type_id": "628924540747fb84fa42161c"
+    },
+    {
+      "type_id": "62891f920747fb84fa42160c"
+    }
+  ],
+  "colours": [
+    {
+      "colour_id": "628a03e0ae7dd8dd4a5b5c7d"
+    },
+    {
+      "colour_id": "628a03f7ae7dd8dd4a5b5c7f"
+    }
+  ],
+  "stage": "1st stage",
+  "evolution_method": "628a070dae7dd8dd4a5b5c9f",
+  "form": "628a0596ae7dd8dd4a5b5c93",
+  "dex_entry": "Its disposition is far more violent than its looks would suggest. Don’t let your hand get too close to its face, as it could bite your hand clean off.",
+  "base_stat_total": "413"
+},{
+  "_id": {
+    "$oid": "62c70b7cad346e49cf7fb64c"
+  },
+  "dex_number": "021",
+  "pokemon_name": "Spearow",
+  "types": [
+    {
+      "type_id": "62891f920747fb84fa42160c"
+    },
+    {
+      "type_id": "6289214d0747fb84fa421616"
+    }
+  ],
+  "colours": [
+    {
+      "colour_id": "628a03f7ae7dd8dd4a5b5c7f"
+    },
+    {
+      "colour_id": "628a03a3ae7dd8dd4a5b5c79"
+    }
+  ],
+  "stage": "Base form",
+  "evolution_method": "62b1702d1500f67735a6f2b2",
+  "form": "628a0589ae7dd8dd4a5b5c92",
+  "dex_entry": "Eats bugs in grassy areas. It has to flap its short wings at high speed to stay airborne.",
+  "base_stat_total": "262"
+},{
+  "_id": {
+    "$oid": "62c70b7cad346e49cf7fb64d"
+  },
+  "dex_number": "022",
+  "pokemon_name": "Fearow",
+  "types": [
+    {
+      "type_id": "62891f920747fb84fa42160c"
+    },
+    {
+      "type_id": "6289214d0747fb84fa421616"
+    }
+  ],
+  "colours": [
+    {
+      "colour_id": "628a03f7ae7dd8dd4a5b5c7f"
+    }
+  ],
+  "stage": "1st stage",
+  "evolution_method": "628a0639ae7dd8dd4a5b5c96",
+  "form": "628a0589ae7dd8dd4a5b5c92",
+  "dex_entry": "With its huge and magnificent wings, it can keep aloft without ever having to land for rest.",
+  "base_stat_total": "442"
+},{
+  "_id": {
+    "$oid": "62c71adead346e49cf7fb672"
+  },
+  "dex_number": "023",
+  "pokemon_name": "Ekans",
+  "types": [
+    {
+      "type_id": "6289212e0747fb84fa421614"
+    }
+  ],
+  "colours": [
+    {
+      "colour_id": "628a03feae7dd8dd4a5b5c80"
+    },
+    {
+      "colour_id": "628a03d0ae7dd8dd4a5b5c7b"
+    }
+  ],
+  "stage": "Base form",
+  "evolution_method": "62b1702d1500f67735a6f2b2",
+  "form": "628a0589ae7dd8dd4a5b5c92",
+  "dex_entry": "Moves silently and stealthily. Eats the eggs of birds, such as PIDGEY and SPEAROW, whole.",
+  "base_stat_total": "288"
+},{
+  "_id": {
+    "$oid": "62c71adead346e49cf7fb673"
+  },
+  "dex_number": "024",
+  "pokemon_name": "Arbok",
+  "types": [
+    {
+      "type_id": "6289212e0747fb84fa421614"
+    }
+  ],
+  "colours": [
+    {
+      "colour_id": "628a03feae7dd8dd4a5b5c80"
+    }
+  ],
+  "stage": "1st form",
+  "evolution_method": "628a0639ae7dd8dd4a5b5c96",
+  "form": "628a0589ae7dd8dd4a5b5c92",
+  "dex_entry": "It is rumored that the ferocious warning markings on its belly differ from area to area.",
+  "base_stat_total": "448"
+},{
+  "_id": {
+    "$oid": "62c71adead346e49cf7fb674"
+  },
+  "dex_number": "025",
+  "pokemon_name": "Pikachu",
+  "types": [
+    {
+      "type_id": "628920720747fb84fa421610"
+    }
+  ],
+  "colours": [
+    {
+      "colour_id": "628a03d0ae7dd8dd4a5b5c7b"
+    },
+    {
+      "colour_id": "628a03f7ae7dd8dd4a5b5c7f"
+    }
+  ],
+  "stage": "1st stage",
+  "evolution_method": "628a0667ae7dd8dd4a5b5c98",
+  "form": "628a0589ae7dd8dd4a5b5c92",
+  "dex_entry": "When several of these POKéMON gather, their electricity could build and cause lightning storms.",
+  "base_stat_total": "320"
+},{
+  "_id": {
+    "$oid": "62c71adead346e49cf7fb675"
+  },
+  "dex_number": "026",
+  "pokemon_name": "Raichu",
+  "types": [
+    {
+      "type_id": "628920720747fb84fa421610"
+    }
+  ],
+  "colours": [
+    {
+      "colour_id": "628a03d0ae7dd8dd4a5b5c7b"
+    },
+    {
+      "colour_id": "628a03f7ae7dd8dd4a5b5c7f"
+    }
+  ],
+  "stage": "2nd stage",
+  "evolution_method": "628a069bae7dd8dd4a5b5c9b",
+  "form": "628a0589ae7dd8dd4a5b5c92",
+  "dex_entry": "Its long tail serves as a ground to protect itself from its own high voltage power.",
+  "base_stat_total": "485"
+},{
+  "_id": {
+    "$oid": "62c71adead346e49cf7fb676"
+  },
+  "dex_number": "026",
+  "pokemon_name": "Alolan Raichu",
+  "types": [
+    {
+      "type_id": "628920720747fb84fa421610"
+    },
+    {
+      "type_id": "628921580747fb84fa421617"
+    }
+  ],
+  "colours": [
+    {
+      "colour_id": "628a03d0ae7dd8dd4a5b5c7b"
+    },
+    {
+      "colour_id": "628a03f7ae7dd8dd4a5b5c7f"
+    }
+  ],
+  "stage": "2nd stage",
+  "evolution_method": "628a069bae7dd8dd4a5b5c9b",
+  "form": "628a0596ae7dd8dd4a5b5c93",
+  "dex_entry": "It becomes aggressive when it has electricity stored up. At such times, even its Trainer has to take care to avoid being attacked.",
+  "base_stat_total": "485"
+},{
+  "_id": {
+    "$oid": "62c71adead346e49cf7fb677"
+  },
+  "dex_number": "027",
+  "pokemon_name": "Sandshrew",
+  "types": [
+    {
+      "type_id": "628921440747fb84fa421615"
+    }
+  ],
+  "colours": [
+    {
+      "colour_id": "628a03d0ae7dd8dd4a5b5c7b"
+    },
+    {
+      "colour_id": "628a0413ae7dd8dd4a5b5c82"
+    }
+  ],
+  "stage": "Base form",
+  "evolution_method": "62b1702d1500f67735a6f2b2",
+  "form": "628a0589ae7dd8dd4a5b5c92",
+  "dex_entry": "Burrows deep underground in arid locations far from water. It only emerges to hunt for food.",
+  "base_stat_total": "300"
+},{
+  "_id": {
+    "$oid": "62c71adead346e49cf7fb678"
+  },
+  "dex_number": "027",
+  "pokemon_name": "Alolan Sandshrew",
+  "types": [
+    {
+      "type_id": "6289209f0747fb84fa421612"
+    },
+    {
+      "type_id": "6289245b0747fb84fa42161d"
+    }
+  ],
+  "colours": [
+    {
+      "colour_id": "628a0413ae7dd8dd4a5b5c82"
+    },
+    {
+      "colour_id": "628a03d0ae7dd8dd4a5b5c7b"
+    }
+  ],
+  "stage": "Base form",
+  "evolution_method": "62b1702d1500f67735a6f2b2",
+  "form": "628a0596ae7dd8dd4a5b5c93",
+  "dex_entry": "It usually makes its home in deserts and arid zones, where rain does not fall. It digs holes to catch Bug-type Pokémon.",
+  "base_stat_total": "300"
+},{
+  "_id": {
+    "$oid": "62c71adead346e49cf7fb679"
+  },
+  "dex_number": "028",
+  "pokemon_name": "Sandslash",
+  "types": [
+    {
+      "type_id": "628921440747fb84fa421615"
+    }
+  ],
+  "colours": [
+    {
+      "colour_id": "628a03d0ae7dd8dd4a5b5c7b"
+    },
+    {
+      "colour_id": "628a03f7ae7dd8dd4a5b5c7f"
+    }
+  ],
+  "stage": "1st stage",
+  "evolution_method": "628a0639ae7dd8dd4a5b5c96",
+  "form": "628a0589ae7dd8dd4a5b5c92",
+  "dex_entry": "Curls up into a spiny ball when threatened. It can roll while curled up to attack or escape.",
+  "base_stat_total": "450"
+},{
+  "_id": {
+    "$oid": "62c71adead346e49cf7fb67a"
+  },
+  "dex_number": "028",
+  "pokemon_name": "Alolan Sandslash",
+  "types": [
+    {
+      "type_id": "6289209f0747fb84fa421612"
+    },
+    {
+      "type_id": "6289245b0747fb84fa42161d"
+    }
+  ],
+  "colours": [
+    {
+      "colour_id": "Blue"
+    },
+    {
+      "colour_id": "628a0413ae7dd8dd4a5b5c82"
+    }
+  ],
+  "stage": "1st stage",
+  "evolution_method": "628a069bae7dd8dd4a5b5c9b",
+  "form": "628a0596ae7dd8dd4a5b5c93",
+  "dex_entry": "It uses its claws to climb trees and then curls its body into a spiny ball, ready to drop onto any prey that appears.",
+  "base_stat_total": "450"
+}]

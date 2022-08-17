@@ -1,0 +1,61 @@
+[{
+  "_id": {
+    "$oid": "628a0639ae7dd8dd4a5b5c96"
+  },
+  "method_name": "Level up"
+},{
+  "_id": {
+    "$oid": "628a064fae7dd8dd4a5b5c97"
+  },
+  "method_name": "Level up knowing a move"
+},{
+  "_id": {
+    "$oid": "628a0667ae7dd8dd4a5b5c98"
+  },
+  "method_name": "Friendship"
+},{
+  "_id": {
+    "$oid": "628a0689ae7dd8dd4a5b5c9a"
+  },
+  "method_name": "Level up on a location"
+},{
+  "_id": {
+    "$oid": "628a069bae7dd8dd4a5b5c9b"
+  },
+  "method_name": "Use an item"
+},{
+  "_id": {
+    "$oid": "628a06c3ae7dd8dd4a5b5c9c"
+  },
+  "method_name": "Level up while holding an item"
+},{
+  "_id": {
+    "$oid": "628a06e9ae7dd8dd4a5b5c9d"
+  },
+  "method_name": "Trade"
+},{
+  "_id": {
+    "$oid": "628a0700ae7dd8dd4a5b5c9e"
+  },
+  "method_name": "Trade while holding an item"
+},{
+  "_id": {
+    "$oid": "628a070dae7dd8dd4a5b5c9f"
+  },
+  "method_name": "Level up during a certain time of day"
+},{
+  "_id": {
+    "$oid": "62b1701a1500f67735a6f2b1"
+  },
+  "method_name": "Special"
+},{
+  "_id": {
+    "$oid": "62b1702d1500f67735a6f2b2"
+  },
+  "method_name": "This Pokémon is a base form"
+},{
+  "_id": {
+    "$oid": "62c6b1b5ad346e49cf7fb5b2"
+  },
+  "method_name": "Mega evolve"
+}]

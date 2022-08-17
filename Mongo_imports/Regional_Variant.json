@@ -1,0 +1,26 @@
+[{
+  "_id": {
+    "$oid": "628a0589ae7dd8dd4a5b5c92"
+  },
+  "variant_name": "Original"
+},{
+  "_id": {
+    "$oid": "628a0596ae7dd8dd4a5b5c93"
+  },
+  "variant_name": "Alolan"
+},{
+  "_id": {
+    "$oid": "628a059fae7dd8dd4a5b5c94"
+  },
+  "variant_name": "Galarian"
+},{
+  "_id": {
+    "$oid": "628a05a9ae7dd8dd4a5b5c95"
+  },
+  "variant_name": "Hisuian"
+},{
+  "_id": {
+    "$oid": "62c6b3d8ad346e49cf7fb5b8"
+  },
+  "variant_name": "Mega"
+}]

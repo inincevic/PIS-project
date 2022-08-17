@@ -668,6 +668,11 @@ app.delete("/delete/:name", async (req, res) =>{
   res.send("User deleted");
 });
 
+// testing if docker works -------> DELETE LATER
+app.get("/test", async(req,res) => {
+  res.send("Docker Works");
+});
+
 //having the app listen on the port
 app.listen(port, () => {
   console.log("Example app listening on port", port);
