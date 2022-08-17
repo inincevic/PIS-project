@@ -4,7 +4,7 @@ import mongo from "mongodb";
 
 //connection string for the PokeGuesserProject database on MongoDB
 let connection_string =
-  "mongodb://localhost:27017";
+  "mongodb://mongo:27017";
 
 let client = new mongo.MongoClient(connection_string, {
   useNewUrlParser: true,
@@ -24,7 +24,7 @@ export default async () => {
   if (!db || !isConnected()) {
     await client.connect();
     db = client.db("PokeGuesserProject");
-    console.log("Connected OK");
+    console.log("Connected OK");  
   } else console.log("Already Connected");
   return db;
 };
